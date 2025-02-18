@@ -3,8 +3,8 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div>
-      <ul>
+    <div className="home_page_main_parent_div">
+      {/* <ul>
         <li>
           <b>Company Name: </b>
           <span>M/S SAR ENTERPRISE</span>
@@ -36,7 +36,16 @@ const Home = () => {
           <b>Legal Document: </b>
           <span></span>
         </li>
-      </ul>
+      </ul> */}
+
+      <p>
+        Welcome to M/S SAR ENTERPRISE, a trusted name in construction and
+        material supply. Established in 2024, we specialize in earth filling,
+        sand filling, construction materials supply, and complete building
+        construction solutions. With a commitment to quality, efficiency, and
+        customer satisfaction, we ensure durable and cost-effective results for
+        our clients.
+      </p>
     </div>
   );
 };
