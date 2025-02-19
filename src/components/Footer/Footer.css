@@ -1,0 +1,27 @@
+.footer_grid_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: antiquewhite;
+  padding: 30px;
+  line-height: 50px;
+  gap: 50px;
+}
+.footer_grid_div div {
+  text-align: left;
+}
+
+@media screen and (max-width: 1250px) {
+  .footer_grid_div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 950px) {
+  .footer_grid_div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 650px) {
+  .footer_grid_div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

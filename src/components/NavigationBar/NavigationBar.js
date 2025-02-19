@@ -31,11 +31,29 @@ const NavigationBar = () => {
               </li>
               <li>
                 {/* <Link>About Us</Link> */}
-
-                <Link to="/pricing">
-                  Earth Filling & Land Development
-                  <FontAwesomeIcon icon={faAngleDown} />
-                </Link>
+                <li>
+                  <Link to="/aboutUs">
+                    About Us <FontAwesomeIcon icon={faAngleDown} />
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/aboutUs">
+                    Our Services <FontAwesomeIcon icon={faAngleDown} />
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/aboutUs">
+                    Projects <FontAwesomeIcon icon={faAngleDown} />
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/aboutUs">
+                    Glarry <FontAwesomeIcon icon={faAngleDown} />
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/aboutUs">Contact</Link>
+                </li>
 
                 {/* <ul>
                   <li>
@@ -99,17 +117,17 @@ const NavigationBar = () => {
                   </li>
                 </ul>
               </li> */}
-              <li className="photo_gallery">
-                <Link to="/bookAVan"> Ongoing & Completed Projects</Link>
-              </li>
-              <li>
-                <Link to="/aboutUs">About Us</Link>
-              </li>
             </div>
             <li>
               <div className="nav_fle_div">
                 {/* <FontAwesomeIcon className="faEnvelope" icon={faEnvelope} /> */}
                 {/* <Link>kazidmc@gmail.com</Link> */}
+                {/* <p>
+                  {" "}
+                  Home, (AboutUs - Mission and vission, Company over view, why
+                  chose us,team), (OurServices - ),(Projects - ),(Glarry -
+                  ),Contact
+                </p> */}
               </div>
             </li>
           </ul>
