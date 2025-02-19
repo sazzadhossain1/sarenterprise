@@ -15,8 +15,8 @@ const NavigationBar = () => {
     <div>
       <header>
         <Link to="/home">
-          <img className="logo" src="" alt="" />
-          {/* <h1 className="quickVanuk">Quick Vanuk</h1> */}
+          {/* <img className="logo" src="" alt="" /> */}
+          <h1 className="quickVanuk">Sar Enterprise</h1>
         </Link>
         <input type="checkbox" id="menu-bar" />
         <label htmlFor="menu-bar">
@@ -29,6 +29,9 @@ const NavigationBar = () => {
               <li className="photo_gallery">
                 <Link to="/home">Home</Link>
               </li>
+
+              {/* ==================== */}
+
               <li>
                 {/* <Link>About Us</Link> */}
                 <li>
@@ -36,72 +39,149 @@ const NavigationBar = () => {
                     About Us <FontAwesomeIcon icon={faAngleDown} />
                   </Link>
                 </li>
+                {/* NASTED MENU START */}
+                <ul>
+                  <li>
+                    <Link to="/brainTumourOperation">Company Overview</Link>
+                  </li>
+                  <li>
+                    <Link to="/endoscopicBrainSurgery">
+                      Mission, Vision & Values
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/skullBaseSurgery">Why Choose Us?</Link>
+                  </li>
+                  <li>
+                    <Link to="/vascularNeuroSurgery">Team</Link>
+                  </li>
+                </ul>
+                {/* NASTED MENU END */}
+              </li>
+
+              {/* ==================== */}
+
+              <li>
                 <li>
                   <Link to="/aboutUs">
                     Our Services <FontAwesomeIcon icon={faAngleDown} />
                   </Link>
                 </li>
-                <li>
-                  <Link to="/aboutUs">
-                    Projects <FontAwesomeIcon icon={faAngleDown} />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/aboutUs">
-                    Glarry <FontAwesomeIcon icon={faAngleDown} />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/aboutUs">Contact</Link>
-                </li>
-
-                {/* <ul>
+                {/* NASTED MENU START */}
+                <ul>
                   <li>
                     <Link to="/brainTumourOperation">
-                      Brain Tumour Operation
+                      Earth Filling & Land Development
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/endoscopicBrainSurgery">Sand Filling</Link>
+                  </li>
+                  <li>
+                    <Link to="/skullBaseSurgery">
+                      Supply of Construction Materials
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/vascularNeuroSurgery">
+                      Building Construction
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/vascularNeuroSurgery">
+                      Infrastructure Development
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/vascularNeuroSurgery">Dredging Services</Link>
+                  </li>
+                  <li>
+                    <Link to="/vascularNeuroSurgery">
+                      Drum Truck Carrying Services
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/vascularNeuroSurgery">
+                      Request a Quote (Call-to-action button)
+                    </Link>
+                  </li>
+                </ul>
+                {/* NASTED MENU END */}
+              </li>
+
+              {/* ================== */}
+
+              <li>
+                <li>
+                  <Link to="/aboutUs">
+                    Projects & Clients <FontAwesomeIcon icon={faAngleDown} />
+                  </Link>
+                </li>
+                {/* NASTED MENU START */}
+                <ul>
+                  <li>
+                    <Link to="/brainTumourOperation">
+                      Ongoing & Completed Projects
                     </Link>
                   </li>
                   <li>
                     <Link to="/endoscopicBrainSurgery">
-                      Endoscopic Brain Surgery (Pituitory, Etv And Others)
+                      Client List & Testimonials
                     </Link>
                   </li>
                   <li>
-                    <Link to="/skullBaseSurgery">Skull Base Surgery</Link>
+                    <Link to="/skullBaseSurgery">
+                      Work Orders (Active & In-Progress)
+                    </Link>
                   </li>
                   <li>
                     <Link to="/vascularNeuroSurgery">
-                      Vascular Neuro Surgery
+                      Corporate Social Responsibility
                     </Link>
                   </li>
                   <li>
-                    <Link to="/pediatricNeuroSurgery">
-                      Pediatric Neuro Surgery
+                    <Link to="/vascularNeuroSurgery">
+                      Environmental responsibility
                     </Link>
                   </li>
                   <li>
-                    <Link to="/spinalSurgery">Spinal Surgery</Link>
+                    <Link to="/vascularNeuroSurgery">
+                      Community contributions
+                    </Link>
+                  </li>
+                </ul>
+                {/* NASTED MENU END */}
+              </li>
+
+              {/* ================= */}
+
+              <li>
+                <li>
+                  <Link to="/aboutUs">
+                    Gallery <FontAwesomeIcon icon={faAngleDown} />
+                  </Link>
+                </li>
+                {/* NASTED MENU START */}
+                <ul>
+                  <li>
+                    <Link to="/brainTumourOperation">Images of Projects</Link>
                   </li>
                   <li>
-                    <Link to="/traumaticBrainAndSpineSurgery">
-                      Traumatic Brain & Spine Surgery
+                    <Link to="/endoscopicBrainSurgery">
+                      Work-in-Progress Pictures
                     </Link>
                   </li>
                   <li>
-                    <Link to="/epilepsySurgery">Epilepsy Surgery</Link>
-                  </li>
-                  <li>
-                    <Link to="/spinalTumour">Spinal Tumour</Link>
-                  </li>
-                  <li>
-                    <Link to="/microdiscectomy">Microdiscectomy</Link>
-                  </li>
-                  <li>
-                    <Link to="/strokeSurgery">
-                      Stroke Surgery (Urgent Surgery Of Stroke Patients)
+                    <Link to="/skullBaseSurgery">
+                      Team & Equipment Showcase
                     </Link>
                   </li>
-                </ul> */}
+                </ul>
+                {/* NASTED MENU END */}
+              </li>
+
+              <li>
+                <Link to="/aboutUs">Contact</Link>
               </li>
 
               {/* <li>
