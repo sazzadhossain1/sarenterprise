@@ -42,18 +42,16 @@ const NavigationBar = () => {
                 {/* NASTED MENU START */}
                 <ul>
                   <li>
-                    <Link to="/brainTumourOperation">Company Overview</Link>
+                    <Link to="/companyOverview">Company Overview</Link>
                   </li>
                   <li>
-                    <Link to="/endoscopicBrainSurgery">
-                      Mission, Vision & Values
-                    </Link>
+                    <Link to="/mission">Mission, Vision & Values</Link>
                   </li>
                   <li>
-                    <Link to="/skullBaseSurgery">Why Choose Us?</Link>
+                    <Link to="/whyChooseUs">Why Choose Us?</Link>
                   </li>
                   <li>
-                    <Link to="/vascularNeuroSurgery">Team</Link>
+                    <Link to="/team">Team</Link>
                   </li>
                 </ul>
                 {/* NASTED MENU END */}
@@ -70,38 +68,36 @@ const NavigationBar = () => {
                 {/* NASTED MENU START */}
                 <ul>
                   <li>
-                    <Link to="/brainTumourOperation">
+                    <Link to="/earthFilling">
                       Earth Filling & Land Development
                     </Link>
                   </li>
                   <li>
-                    <Link to="/endoscopicBrainSurgery">Sand Filling</Link>
+                    <Link to="/sandFilling">Sand Filling</Link>
                   </li>
                   <li>
-                    <Link to="/skullBaseSurgery">
+                    <Link to="/SupplyOfConstruction">
                       Supply of Construction Materials
                     </Link>
                   </li>
                   <li>
-                    <Link to="/vascularNeuroSurgery">
+                    <Link to="/BuildingConstruction">
                       Building Construction
                     </Link>
                   </li>
                   <li>
-                    <Link to="/vascularNeuroSurgery">
+                    <Link to="/InfrastructureDevelopment">
                       Infrastructure Development
                     </Link>
                   </li>
                   <li>
-                    <Link to="/vascularNeuroSurgery">Dredging Services</Link>
+                    <Link to="/dredgingServices">Dredging Services</Link>
                   </li>
                   <li>
-                    <Link to="/vascularNeuroSurgery">
-                      Drum Truck Carrying Services
-                    </Link>
+                    <Link to="/drumTruck">Drum Truck Carrying Services</Link>
                   </li>
                   <li>
-                    <Link to="/vascularNeuroSurgery">
+                    <Link to="/requestAQuote">
                       Request a Quote (Call-to-action button)
                     </Link>
                   </li>
@@ -120,32 +116,28 @@ const NavigationBar = () => {
                 {/* NASTED MENU START */}
                 <ul>
                   <li>
-                    <Link to="/brainTumourOperation">
-                      Ongoing & Completed Projects
-                    </Link>
+                    <Link to="/ongoing">Ongoing & Completed Projects</Link>
                   </li>
                   <li>
-                    <Link to="/endoscopicBrainSurgery">
-                      Client List & Testimonials
-                    </Link>
+                    <Link to="/clientList">Client List & Testimonials</Link>
                   </li>
                   <li>
-                    <Link to="/skullBaseSurgery">
+                    <Link to="/WorkOrders">
                       Work Orders (Active & In-Progress)
                     </Link>
                   </li>
                   <li>
-                    <Link to="/vascularNeuroSurgery">
+                    <Link to="/corporateSocial">
                       Corporate Social Responsibility
                     </Link>
                   </li>
                   <li>
-                    <Link to="/vascularNeuroSurgery">
+                    <Link to="/environmental">
                       Environmental responsibility
                     </Link>
                   </li>
                   <li>
-                    <Link to="/vascularNeuroSurgery">
+                    <Link to="/communityContributions">
                       Community contributions
                     </Link>
                   </li>
@@ -164,15 +156,13 @@ const NavigationBar = () => {
                 {/* NASTED MENU START */}
                 <ul>
                   <li>
-                    <Link to="/brainTumourOperation">Images of Projects</Link>
+                    <Link to="/imagesOfProjects">Images of Projects</Link>
                   </li>
                   <li>
-                    <Link to="/endoscopicBrainSurgery">
-                      Work-in-Progress Pictures
-                    </Link>
+                    <Link to="/workInProgress">Work-in-Progress Pictures</Link>
                   </li>
                   <li>
-                    <Link to="/skullBaseSurgery">
+                    <Link to="/teamAndEquipment">
                       Team & Equipment Showcase
                     </Link>
                   </li>
