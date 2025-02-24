@@ -2,11 +2,7 @@ import React from "react";
 import "./NavigationBar.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faAngleDown,
-  faBars,
-  faEnvelope,
-} from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown, faBars } from "@fortawesome/free-solid-svg-icons";
 
 // import logo from "../../accets/logo/Logo PNG.png";
 
@@ -35,7 +31,7 @@ const NavigationBar = () => {
               <li>
                 {/* <Link>About Us</Link> */}
                 <li>
-                  <Link to="/aboutUs">
+                  <Link to="#">
                     About Us <FontAwesomeIcon icon={faAngleDown} />
                   </Link>
                 </li>
@@ -45,7 +41,7 @@ const NavigationBar = () => {
                     <Link to="/companyOverview">Company Overview</Link>
                   </li>
                   <li>
-                    <Link to="/mission">Mission, Vision & Values</Link>
+                    <Link to="/mission">Mission and Vision</Link>
                   </li>
                   <li>
                     <Link to="/whyChooseUs">Why Choose Us?</Link>
@@ -61,12 +57,13 @@ const NavigationBar = () => {
 
               <li>
                 <li>
-                  <Link to="/aboutUs">
-                    Our Services <FontAwesomeIcon icon={faAngleDown} />
+                  <Link to="/ourServices">
+                    Our Services
+                    {/* <FontAwesomeIcon icon={faAngleDown} /> */}
                   </Link>
                 </li>
                 {/* NASTED MENU START */}
-                <ul>
+                {/* <ul>
                   <li>
                     <Link to="/earthFilling">
                       Earth Filling & Land Development
@@ -101,7 +98,7 @@ const NavigationBar = () => {
                       Request a Quote (Call-to-action button)
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
                 {/* NASTED MENU END */}
               </li>
 
@@ -109,12 +106,13 @@ const NavigationBar = () => {
 
               <li>
                 <li>
-                  <Link to="/aboutUs">
-                    Projects & Clients <FontAwesomeIcon icon={faAngleDown} />
+                  <Link to="/projects">
+                    Projects
+                    {/* <FontAwesomeIcon icon={faAngleDown} /> */}
                   </Link>
                 </li>
                 {/* NASTED MENU START */}
-                <ul>
+                {/* <ul>
                   <li>
                     <Link to="/ongoing">Ongoing & Completed Projects</Link>
                   </li>
@@ -141,7 +139,7 @@ const NavigationBar = () => {
                       Community contributions
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
                 {/* NASTED MENU END */}
               </li>
 
@@ -149,12 +147,13 @@ const NavigationBar = () => {
 
               <li>
                 <li>
-                  <Link to="/aboutUs">
-                    Gallery <FontAwesomeIcon icon={faAngleDown} />
+                  <Link to="/gallery">
+                    Gallery
+                    {/* <FontAwesomeIcon icon={faAngleDown} /> */}
                   </Link>
                 </li>
                 {/* NASTED MENU START */}
-                <ul>
+                {/* <ul>
                   <li>
                     <Link to="/imagesOfProjects">Images of Projects</Link>
                   </li>
@@ -166,12 +165,12 @@ const NavigationBar = () => {
                       Team & Equipment Showcase
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
                 {/* NASTED MENU END */}
               </li>
 
               <li>
-                <Link to="/aboutUs">Contact</Link>
+                <Link to="#">Contact</Link>
               </li>
 
               {/* <li>

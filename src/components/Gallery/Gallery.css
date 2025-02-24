@@ -1,0 +1,16 @@
+.gallery_parent_div {
+  margin-top: 100px;
+}
+.gallery_grid_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 75%;
+  margin: auto;
+  gap: 20px;
+}
+
+.gallery_grid_div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

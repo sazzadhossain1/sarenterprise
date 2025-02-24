@@ -25,6 +25,8 @@ import CommunityContributions from "./components/CommunityContributions/Communit
 import ImagesOfProjects from "./components/ImagesOfProjects/ImagesOfProjects";
 import WorkInProgress from "./components/WorkInProgress/WorkInProgress";
 import TeamAndEquipment from "./components/TeamAndEquipment/TeamAndEquipment";
+import Projects from "./components/Projects/Projects";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
   const router = createBrowserRouter([
@@ -131,6 +133,14 @@ function App() {
         {
           path: "/teamAndEquipment",
           element: <TeamAndEquipment></TeamAndEquipment>,
+        },
+        {
+          path: "/projects",
+          element: <Projects></Projects>,
+        },
+        {
+          path: "/gallery",
+          element: <Gallery></Gallery>,
         },
       ],
     },

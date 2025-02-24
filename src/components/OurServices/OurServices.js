@@ -4,7 +4,7 @@ const OurServices = () => {
   return (
     <div className="ourServices_parent_div">
       <h1>Our Services</h1>
-      <p>Earth Filling & Land Development</p>
+      <h2>Earth Filling & Land Development</h2>
       <p>
         We provide high-quality earth filling for site preparation and land
         development, ensuring a solid foundation for construction projects.
@@ -14,7 +14,7 @@ const OurServices = () => {
         We supply and deliver premium sand to meet the needs of various
         construction projects.
       </p>
-      <p>Supply of Construction Materials</p>
+      <h2>Supply of Construction Materials</h2>
       <p>
         We offer top-grade materials, including bricks, cement, rods,
         aggregates, and more, ensuring durability and strength.
@@ -40,7 +40,7 @@ const OurServices = () => {
         drum trucks.
       </p>
       <h2>📞 Request a Quote Today!</h2>
-      <h2>Projects & Clients</h2>
+      {/* <h2>Projects & Clients</h2>
       <p>
         We take pride in successfully completing numerous projects in
         collaboration with private and government entities.
@@ -57,13 +57,12 @@ const OurServices = () => {
       <p>
         Kawla to Banani Bangladesh Railway Project – Sand Filling. (Client:
         AFCONS-KPTL JV)
-      </p>
+      </p> */}
 
-      <p>
+      {/* <p>
         Home, (AboutUs - Mission and vission, Company over view, why chose
         us,team), (OurServices - ),(Projects - ),(Glarry - ),Contact
-      </p>
-      <p></p>
+      </p> */}
     </div>
   );
 };

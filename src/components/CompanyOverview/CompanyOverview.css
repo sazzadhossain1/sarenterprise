@@ -1,0 +1,14 @@
+.company_overview_parent_div {
+  margin-top: 100px;
+  text-align: left;
+  margin-bottom: 150px;
+  padding-left: 15px;
+}
+.company_overview_parent_div h2 {
+  margin-top: 120px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.company_overview_parent_div p {
+  margin-top: 20px;
+}
