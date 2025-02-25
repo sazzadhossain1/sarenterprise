@@ -6,7 +6,14 @@ import { faAngleDown, faBars } from "@fortawesome/free-solid-svg-icons";
 
 // import logo from "../../accets/logo/Logo PNG.png";
 
-const NavigationBar = () => {
+const NavigationBar = ({ footerRef }) => {
+  const handleScrollToFooter = (e) => {
+    e.preventDefault();
+
+    if (footerRef && footerRef.current) {
+      footerRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
   return (
     <div>
       <header>
@@ -42,6 +49,9 @@ const NavigationBar = () => {
                   </li>
                   <li>
                     <Link to="/mission">Mission and Vision</Link>
+                  </li>
+                  <li>
+                    <Link to="/businessDescription">Business Description</Link>
                   </li>
                   <li>
                     <Link to="/whyChooseUs">Why Choose Us?</Link>
@@ -170,7 +180,9 @@ const NavigationBar = () => {
               </li>
 
               <li>
-                <Link to="#">Contact</Link>
+                <a href="#" onClick={handleScrollToFooter}>
+                  Contact
+                </a>
               </li>
 
               {/* <li>

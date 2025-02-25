@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useRef } from "react";
 import NavigationBar from "../components/NavigationBar/NavigationBar";
 import { Outlet } from "react-router-dom";
 import Footer from "../components/Footer/Footer";
 
 const Main = () => {
+  const footerRef = useRef(null); // Create reference for footer
+
   return (
     <div>
-      <NavigationBar></NavigationBar>
-      <Outlet></Outlet>
-      <Footer></Footer>
+      <NavigationBar footerRef={footerRef} /> {/* Pass reference to Navbar */}
+      <Outlet />
+      <Footer ref={footerRef} /> {/* Attach reference to Footer */}
     </div>
   );
 };

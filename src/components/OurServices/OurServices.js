@@ -39,25 +39,6 @@ const OurServices = () => {
         Reliable bulk transportation services for construction materials using
         drum trucks.
       </p>
-      <h2>📞 Request a Quote Today!</h2>
-      {/* <h2>Projects & Clients</h2>
-      <p>
-        We take pride in successfully completing numerous projects in
-        collaboration with private and government entities.
-      </p>
-      <h2>Ongoing Projects:</h2>
-      <p>
-        MRT Lane 5, Hemayetpur, Savar, Dhaka – Earth filling by dredging.
-        (Client: Earthmoving Solution Limited, Spectra Limited)
-      </p>
-      <p>
-        ATI Institute, Adarshanagar, Mohonganj, Netrokona – Earth filling.
-        (Client: UCCL)
-      </p>
-      <p>
-        Kawla to Banani Bangladesh Railway Project – Sand Filling. (Client:
-        AFCONS-KPTL JV)
-      </p> */}
 
       {/* <p>
         Home, (AboutUs - Mission and vission, Company over view, why chose

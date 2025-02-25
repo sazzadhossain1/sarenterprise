@@ -1,0 +1,12 @@
+.BusinessDescription_parent_div {
+  margin-top: 100px;
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 175px;
+}
+.BusinessDescription_parent_div h2 {
+  margin-bottom: 20px;
+}
+.BusinessDescription_parent_div p {
+  line-height: 30px;
+}

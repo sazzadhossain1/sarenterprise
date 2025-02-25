@@ -2,7 +2,15 @@
   margin-top: 100px;
   text-align: left;
   padding-left: 10px;
+  margin-bottom: 135px;
+}
+.projects_parent_div h2 {
+  margin-bottom: 20px;
 }
 .projects_parent_div p {
   margin-bottom: 20px;
+}
+
+.projects_parent_div ul li {
+  margin-left: 20px;
 }

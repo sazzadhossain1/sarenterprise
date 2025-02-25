@@ -27,6 +27,7 @@ import WorkInProgress from "./components/WorkInProgress/WorkInProgress";
 import TeamAndEquipment from "./components/TeamAndEquipment/TeamAndEquipment";
 import Projects from "./components/Projects/Projects";
 import Gallery from "./components/Gallery/Gallery";
+import BusinessDescription from "./components/BusinessDescription/BusinessDescription";
 
 function App() {
   const router = createBrowserRouter([
@@ -141,6 +142,10 @@ function App() {
         {
           path: "/gallery",
           element: <Gallery></Gallery>,
+        },
+        {
+          path: "/businessDescription",
+          element: <BusinessDescription></BusinessDescription>,
         },
       ],
     },

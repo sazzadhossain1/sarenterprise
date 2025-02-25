@@ -5,11 +5,16 @@ const Mission = () => {
     <div className="mission_parent_div">
       <h2>Mission and Vision </h2>
       <p>
-        Mission: To provide high-quality and reliable construction services,
-        ensuring customer satisfaction and project success. Vision: To be a
-        leading contractor company recognized for excellence, efficiency, and
-        sustainable construction solutions. Core Values: Integrity, Quality,
-        Efficiency, Customer Satisfaction, and Sustainability
+        <b>Mission:</b> To provide high-quality and reliable construction
+        services, ensuring customer satisfaction and project success.
+      </p>
+      <p>
+        <b>Vision:</b> To be a leading contractor company recognized for
+        excellence, efficiency, and sustainable construction solutions.
+      </p>
+      <p>
+        <b>Core Values:</b> Integrity, Quality, Efficiency, Customer
+        Satisfaction, and Sustainability
       </p>
     </div>
   );
