@@ -23,21 +23,65 @@ const Gallery = () => {
   return (
     <div className="gallery_parent_div">
       <div className="gallery_grid_div">
-        <img src={ATIProject} alt="" />
-        <img src={ATIProject2} alt="" />
-        <img src={ATIProject3} alt="" />
-        <img src={personOne} alt="" />
-        <img src={personTwo} alt="" />
-        <img src={personThree} alt="" />
-        <img src={pesonFour} alt="" />
-        <img src={personFive} alt="" />
-        <img src={photoOne} alt="" />
-        <img src={photoTwo} alt="" />
-        <img src={photoThree} alt="" />
-        <img src={photoFour} alt="" />
-        <img src={photoFive} alt="" />
-        <img src={photoSix} alt="" />
-        <img src={photoSaven} alt="" />
+        <div>
+          <img src={ATIProject} alt="" />
+        </div>
+
+        <div>
+          <img src={ATIProject2} alt="" />
+        </div>
+
+        <div>
+          <img src={ATIProject3} alt="" />
+        </div>
+
+        <div>
+          <img src={personOne} alt="" />
+        </div>
+
+        <div>
+          <img src={personTwo} alt="" />
+        </div>
+
+        <div>
+          <img src={personThree} alt="" />
+        </div>
+
+        <div>
+          <img src={pesonFour} alt="" />
+        </div>
+
+        <div>
+          <img src={personFive} alt="" />
+        </div>
+
+        <div>
+          <img src={photoOne} alt="" />
+        </div>
+
+        <div>
+          <img src={photoTwo} alt="" />
+        </div>
+
+        <div>
+          <img src={photoThree} alt="" />
+        </div>
+
+        <div>
+          <img src={photoFour} alt="" />
+        </div>
+
+        <div>
+          <img src={photoFive} alt="" />
+        </div>
+
+        <div>
+          <img src={photoSix} alt="" />
+        </div>
+
+        <div>
+          <img src={photoSaven} alt="" />
+        </div>
       </div>
     </div>
   );

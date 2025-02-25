@@ -1,3 +1,8 @@
 .projects_parent_div {
   margin-top: 100px;
+  text-align: left;
+  padding-left: 10px;
+}
+.projects_parent_div p {
+  margin-bottom: 20px;
 }

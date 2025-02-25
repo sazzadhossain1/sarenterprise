@@ -1,3 +1,15 @@
 .ourServices_parent_div {
   margin-top: 100px;
+  text-align: left;
+  padding-left: 15px;
+}
+.ourServices_parent_div h1 {
+  margin-bottom: 20px;
+}
+.ourServices_parent_div h2 {
+  margin-bottom: 10px;
+}
+
+.ourServices_parent_div p {
+  margin-bottom: 30px;
 }
