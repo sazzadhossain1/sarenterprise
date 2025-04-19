@@ -1,7 +1,20 @@
 .aboutUs_parent_div {
-  margin-top: 100px;
+  margin-top: 120px;
+  margin-bottom: 50px;
 }
 .aboutUs_parent_div h2 {
   margin-top: 70px;
   margin-bottom: 30px;
+}
+.Company_Overview_text_div {
+  line-height: 30px;
+}
+.Mission_Vision_and_Values_text_div {
+  line-height: 30px;
+}
+.Business_Description_text_div {
+  line-height: 30px;
+}
+.Why_Choose_Us_text_div {
+  line-height: 30px;
 }

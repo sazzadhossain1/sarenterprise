@@ -1,27 +1,69 @@
+.footer_parent_div {
+  background-color: rgb(241, 241, 241);
+}
 .footer_grid_div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  background-color: antiquewhite;
+
   padding: 30px;
-  line-height: 50px;
-  gap: 50px;
+  gap: 200px;
+  width: 75%;
+  margin: auto;
 }
 .footer_grid_div div {
+  /* background-color: red; */
+  width: 100%;
+  /* text-align: left; */
+}
+.footer_first_div {
   text-align: left;
 }
+.footer_second_div {
+  text-align: left;
+}
+.footer_third_div {
+  text-align: left;
+}
+.footer_forth_div {
+  text-align: left;
+}
+.Head_Office {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 23px;
+}
+.Brance_Office {
+  line-height: 23px;
+}
+.footer_head_office_flex_div div {
+  margin-top: 20px;
+}
+.footer_number-div h4 {
+  margin-bottom: 10px;
+}
+.footer_number-div p {
+  margin-top: 5px;
+}
 
-@media screen and (max-width: 1250px) {
+.footer_email_div p {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1400px) {
   .footer_grid_div {
     grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
   }
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 850px) {
   .footer_grid_div {
     grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   .footer_grid_div {
     grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
   }
 }

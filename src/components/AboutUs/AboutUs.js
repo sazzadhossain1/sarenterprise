@@ -4,7 +4,7 @@ import "./AboutUs.css";
 const AboutUs = () => {
   return (
     <div className="aboutUs_parent_div">
-      <div>
+      <div className="Company_Overview_text_div">
         <h2>Company Overview</h2>
         <p>
           M/S SAR ENTERPRISE is a partnership firm established in 2024,
@@ -22,32 +22,46 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div>
+      <div className="Mission_Vision_and_Values_text_div">
         <h2>Mission, Vision & Values</h2>
         <p>
-          Mission: To provide high-quality and reliable construction services,
-          ensuring customer satisfaction and project success.
+          <b>Mission</b>: To provide high-quality and reliable construction
+          services, ensuring customer satisfaction and project success.
         </p>
         <p>
-          Vision: To be a leading contractor company recognized for excellence,
-          efficiency, and sustainable construction solutions.
+          <b>Vision</b>: To be a leading contractor company recognized for
+          excellence, efficiency, and sustainable construction solutions.
         </p>
         <p>
-          Core Values: Integrity, Quality, Efficiency, Customer Satisfaction,
-          and Sustainability
+          <b>Core Values</b>: Integrity, Quality, Efficiency, Customer
+          Satisfaction, and Sustainability
         </p>
-        <p>Why Choose Us?</p>
-        <div>
-          <p>
-            ✅ Experienced team with expertise in construction and material
-            supply.
-          </p>
-          <p>✅ High-quality materials and industry-best practices.</p>
-          <p>✅ Commitment to timely delivery and cost-effectiveness.</p>
-          <p>
-            ✅ Strong client relationships and transparent business dealings.
-          </p>
-        </div>
+      </div>
+      <div className="Business_Description_text_div">
+        <h2>Business Description</h2>
+        <p>
+          M/S SAR ENTERPRISE is a reputable contractor company specializing in
+          essential construction
+        </p>
+
+        <p>
+          services. We provide earth filling, sand filling, supply of
+          construction materials, and complete building
+        </p>
+        <p>
+          construction solutions. Our expertise ensures durable and
+          cost-effective results for our clients.
+        </p>
+      </div>
+      <div className="Why_Choose_Us_text_div">
+        <h2>Why Choose Us?</h2>
+        <p>
+          ✅ Experienced team with expertise in construction and material
+          supply.
+        </p>
+        <p>✅ High-quality materials and industry-best practices.</p>
+        <p>✅ Commitment to timely delivery and cost-effectiveness.</p>
+        <p>✅ Strong client relationships and transparent business dealings.</p>
       </div>
     </div>
   );

@@ -1,7 +1,35 @@
 .ourServices_parent_div {
-  margin-top: 100px;
+  margin-top: 130px;
+}
+.ourServices_parent_div h1 {
+  margin-bottom: 200px;
+}
+.ourServices_grid_div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 50px;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 50px;
+}
+.our_Services_right_text_div {
   text-align: left;
-  padding-left: 15px;
+}
+.ourServices_grid_div_two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 50px;
+  align-items: center;
+  background-color: #eff5fd;
+  padding: 20px;
+}
+
+.our_Services_left_text_div {
+  text-align: right;
+}
+.ourServices_parent_div img {
+  width: 80%;
 }
 .ourServices_parent_div h1 {
   margin-bottom: 20px;

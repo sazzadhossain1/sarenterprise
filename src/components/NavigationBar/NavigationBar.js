@@ -1,12 +1,12 @@
 import React from "react";
 import "./NavigationBar.css";
-import { Link } from "react-router-dom";
+import { Link, Navigate, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 // import logo from "../../accets/logo/Logo PNG.png";
 
-const NavigationBar = ({ footerRef }) => {
+const NavigationBar = ({ footerRef, aboutUsRef }) => {
   const handleScrollToFooter = (e) => {
     e.preventDefault();
 
@@ -14,6 +14,7 @@ const NavigationBar = ({ footerRef }) => {
       footerRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
+
   return (
     <div>
       <header>
@@ -32,42 +33,13 @@ const NavigationBar = ({ footerRef }) => {
               <li className="photo_gallery">
                 <Link to="/home">Home</Link>
               </li>
-
-              {/* ==================== */}
-
-              <li>
-                {/* <Link>About Us</Link> */}
-                <li>
-                  <Link to="#">
-                    About Us <FontAwesomeIcon icon={faAngleDown} />
-                  </Link>
-                </li>
-                {/* NASTED MENU START */}
-                <ul>
-                  <li>
-                    <Link to="/companyOverview">Company Overview</Link>
-                  </li>
-                  <li>
-                    <Link to="/mission">Mission and Vision</Link>
-                  </li>
-                  <li>
-                    <Link to="/businessDescription">Business Description</Link>
-                  </li>
-                  <li>
-                    <Link to="/whyChooseUs">Why Choose Us?</Link>
-                  </li>
-                  <li>
-                    <Link to="/team">Team</Link>
-                  </li>
-                </ul>
-                {/* NASTED MENU END */}
+              <li className="photo_gallery">
+                <Link to="/home#about">About Us</Link>
               </li>
 
-              {/* ==================== */}
-
               <li>
                 <li>
-                  <Link to="/ourServices">
+                  <Link to="/home#services">
                     Our Services
                     {/* <FontAwesomeIcon icon={faAngleDown} /> */}
                   </Link>
@@ -116,7 +88,7 @@ const NavigationBar = ({ footerRef }) => {
 
               <li>
                 <li>
-                  <Link to="/projects">
+                  <Link to="/home#projects">
                     Projects
                     {/* <FontAwesomeIcon icon={faAngleDown} /> */}
                   </Link>
@@ -157,7 +129,7 @@ const NavigationBar = ({ footerRef }) => {
 
               <li>
                 <li>
-                  <Link to="/gallery">
+                  <Link to="/home#gallery">
                     Gallery
                     {/* <FontAwesomeIcon icon={faAngleDown} /> */}
                   </Link>
