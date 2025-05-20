@@ -7,7 +7,7 @@ const Footer = forwardRef((props, ref) => {
       <div>
         <div className="footer_grid_div">
           <div className="footer_first_div">
-            <h2>Sarenterprise</h2>
+            <h2 className="Sarenterprise">Sar Enterprise</h2>
             <p className="Head_Office">
               <b>Head Office :</b> 20/5, Wests Manikdi, Dhaka 1206.
             </p>

@@ -1,6 +1,6 @@
 .projects_parent_div {
   margin-top: 100px;
-  text-align: left;
+  /* text-align: left; */
   padding-left: 10px;
   margin-bottom: 135px;
 }
@@ -11,6 +11,13 @@
   margin-bottom: 20px;
 }
 
+.projects_parent_div ul {
+  margin-left: 20px;
+  /* background-color: red; */
+  width: 56%;
+  margin: auto;
+}
 .projects_parent_div ul li {
   margin-left: 20px;
+  /* text-align: center; */
 }

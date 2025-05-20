@@ -5,6 +5,7 @@ import OurServices from "../OurServices/OurServices";
 import Projects from "../Projects/Projects";
 import Gallery from "../Gallery/Gallery";
 import { useLocation } from "react-router-dom";
+import Banner from "../Banner/Banner";
 
 const Home = () => {
   const aboutRef = useRef(null);
@@ -29,14 +30,15 @@ const Home = () => {
   }, [location]);
   return (
     <div className="home_page_main_parent_div">
-      <p>
+      <Banner></Banner>
+      {/* <p>
         Welcome to M/S SAR ENTERPRISE, a trusted name in construction and
         material supply. Established in 2024, we specialize in earth filling,
         sand filling, construction materials supply, and complete building
         construction solutions. With a commitment to quality, efficiency, and
         customer satisfaction, we ensure durable and cost-effective results for
         our clients.
-      </p>
+      </p> */}
 
       {/* Attach ref here */}
       <div ref={aboutRef}>

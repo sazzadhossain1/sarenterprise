@@ -11,12 +11,13 @@
   margin: auto;
 }
 .footer_grid_div div {
-  /* background-color: red; */
   width: 100%;
-  /* text-align: left; */
 }
 .footer_first_div {
   text-align: left;
+}
+.Sarenterprise {
+  /* font-size: 30px; */
 }
 .footer_second_div {
   text-align: left;

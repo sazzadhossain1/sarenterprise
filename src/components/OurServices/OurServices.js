@@ -1,14 +1,20 @@
 import React from "react";
 import "./OurServices.css";
 
-import ATIProject2 from "../../accets/gallery/ATI Project2.jpg";
+import EarthFillingLandDevelopment from "../../accets/ourServices/EarthFillingLandDevelopment.jpg";
+import SandFilling from "../../accets/ourServices/SandFilling.jpg";
+import SupplyofConstructionMaterials from "../../accets/ourServices/SupplyofConstructionMaterials.jpg";
+import BuildingConstruction from "../../accets/ourServices/BuildingConstruction.jpg";
+import InfrastructureDevelopment from "../../accets/ourServices/InfrastructureDevelopment.jpg";
+import DredgingServices from "../../accets/ourServices/DredgingServices.jpg";
+import DrumTruckCarryingServices from "../../accets/ourServices/DrumTruckCarryingServices.jpg";
 const OurServices = () => {
   return (
     <div className="ourServices_parent_div">
       <h1>Our Services</h1>
       <div className="ourServices_grid_div">
         <div>
-          <img src={ATIProject2} alt="" />
+          <img src={EarthFillingLandDevelopment} alt="" />
         </div>
         <div className="our_Services_right_text_div">
           <h2>Earth Filling & Land Development</h2>
@@ -30,7 +36,7 @@ const OurServices = () => {
           </p>
         </div>
         <div>
-          <img src={ATIProject2} alt="" />
+          <img src={SandFilling} alt="" />
         </div>
       </div>
 
@@ -38,7 +44,7 @@ const OurServices = () => {
 
       <div className="ourServices_grid_div">
         <div>
-          <img src={ATIProject2} alt="" />
+          <img src={SupplyofConstructionMaterials} alt="" />
         </div>
         <div className="our_Services_right_text_div">
           <h2>Supply of Construction Materials</h2>
@@ -59,14 +65,14 @@ const OurServices = () => {
           </p>
         </div>
         <div>
-          <img src={ATIProject2} alt="" />
+          <img src={BuildingConstruction} alt="" />
         </div>
       </div>
 
       {/*  */}
       <div className="ourServices_grid_div">
         <div>
-          <img src={ATIProject2} alt="" />
+          <img src={InfrastructureDevelopment} alt="" />
         </div>
         <div className="our_Services_right_text_div">
           {" "}
@@ -89,14 +95,14 @@ const OurServices = () => {
           </p>
         </div>
         <div>
-          <img src={ATIProject2} alt="" />
+          <img src={DredgingServices} alt="" />
         </div>
       </div>
 
       {/*  */}
       <div className="ourServices_grid_div">
         <div>
-          <img src={ATIProject2} alt="" />
+          <img src={DrumTruckCarryingServices} alt="" />
         </div>
         <div className="our_Services_right_text_div">
           <h2>Drum Truck Carrying Services</h2>
